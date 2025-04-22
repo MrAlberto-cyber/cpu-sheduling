@@ -198,7 +198,7 @@ void FCFS(Process processes[], int n, vector<GanttChartEntry> &ganttChart) {
             currentTime = processes[i].arrivalTime; // Move time forward
         }
 
-        // Process execution
+        
         processes[i].completionTime = currentTime + processes[i].burstTime;
         processes[i].turnaroundTime = processes[i].completionTime - processes[i].arrivalTime;
         processes[i].waitingTime = processes[i].turnaroundTime - processes[i].burstTime;
