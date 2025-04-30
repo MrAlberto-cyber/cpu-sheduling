@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lightblue;
+    background-image: url('https://www.theknowledgeacademy.com/_files/images/CPU_Scheduling_in_OS.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #B0C4DE;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.menu, .input-section, .results {
+    margin: 20px 0;
+}
+
+.menu select, .menu input, .input-section input {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #2E8B57;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #257a4a;
+}
+
+.input-section h3 {
+    margin: 10px 0 5px;
+}
+
+.gantt-chart {
+    margin: 20px 0;
+    font-family: monospace;
+    white-space: pre;
+    background-color: #B0C4DE;
+    padding: 20px;
+    border: 2px solid #2E8B57;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    width: 90%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #D3D3D3;
+    border: 2px solid #2E8B57;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2E8B57;
+    color: white;
+}
+
+td {
+    background-color: #B0C4DE;
+}
+
+#averages {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+    text-align: center;
+}
